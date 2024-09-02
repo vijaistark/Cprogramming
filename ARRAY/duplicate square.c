@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int arr[20];
     int n;
@@ -14,8 +13,6 @@ int main() {
             arr[j] = arr[j] * arr[j];
         }
     }
-    
-    
     }
     for(int i =0;i<n;i++){
         printf("%d ",arr[i]);
